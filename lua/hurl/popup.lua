@@ -8,12 +8,12 @@ local M = {}
 
 local popups = {
   body = Popup({
-    border = 'single',
+    border = 'rounded',
     enter = true,
     buf_options = { filetype = 'markdown' },
   }),
   info = Popup({
-    border = 'single',
+    border = 'rounded',
     enter = true,
     buf_options = { filetype = 'markdown' },
   }),
