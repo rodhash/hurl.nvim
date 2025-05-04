@@ -355,7 +355,7 @@ function M.execute_hurl_cmd(opts, callback)
         utils.notify('Hurl command failed. Check the split view for details.', vim.log.levels.ERROR)
 
         -- Show error in split view
-        local split = require('hurl.split')
+        local split = require('hurl.popup')
         local error_data = {
           body = '# Hurl Error\n\n```sh\n' .. stderr_data .. '\n```',
           headers = {},
