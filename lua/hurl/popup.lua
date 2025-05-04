@@ -26,8 +26,8 @@ local layout = Layout(
     size = _HURL_GLOBAL_CONFIG.popup_size,
   },
   Layout.Box({
-    Layout.Box(popups.info, { size = '30%' }),
-    Layout.Box(popups.body, { grow = 1 }),
+    Layout.Box(popups.info, { size = 0.4 }),
+    Layout.Box(popups.body, { grow = 0.4 }),
   }, { dir = 'col' })
 )
 
